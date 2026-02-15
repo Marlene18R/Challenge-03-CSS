@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@300;400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +8,138 @@
 
 /* ------------------------------------ */
 /* WRITE YOUR CSS HERE :) */
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    background-color: #252528;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px; 
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px; 
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: darkcyan;
+    text-decoration: underline;
+}
+
+nav ul li a:active{
+    background-color: blue;
+    text-decoration: underline;
+}
+
+#main-header{
+    background-color: #252528;
+    color:azure;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+header p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 15px;
+    color:#252528;
+    border-bottom: 2px solid rgb(0, 119, 255);
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color:green;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.highlight{
+    font-style: italic;
+    background-color: rgba(95, 158, 160, 0.401);
+    border-left: 4px solid rgb(0, 119, 255);
+    padding-left: 10px;
+}
+
+.tool-card{
+    background-color: azure;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+table{
+    width: 100%;               
+    background: white;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+thead{
+    background-color: dodgerblue;
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+thead th{
+    text-align: left;
+    padding: 12px 20px;
+}
+
+tbody td{
+    padding: 12px 20px;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: gainsboro;
+}
+
+tbody tr:nth-child(even) td {
+    background-color:ghostwhite;
+}
+
+tbody tr:hover td{
+    background-color:lightblue;
+}
+
 /* ------------------------------------ */
